@@ -13,6 +13,8 @@ import { FFmpeg } from '@ffmpeg/ffmpeg';
 import * as blazeface from '@tensorflow-models/blazeface';
 import * as tf from '@tensorflow/tfjs';
 import { useDropzone } from 'react-dropzone';
+import './App.css';
+
 
 const ffmpeg = new FFmpeg();
 
